@@ -1,0 +1,336 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',
+    sans-serif;
+    text-decoration: none;
+    list-style: none; 
+    margin-bottom: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    gap: 0px; 
+}
+p{
+    color: white;
+    text-align: left;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    margin-left: 240px;
+    margin-right: 270px;
+    font-size: 18px;
+}
+h1{
+    color: rgb(158,124,12);
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 70px;
+}
+h2{
+    color: rgb(158,124,12);
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: -10px;
+    font-size: 36px;
+}
+h3{
+    color: rgb(158,124,12);
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+img{
+    place-items: center;
+    margin-bottom: 0;
+    margin-top: 100px;
+    margin-bottom: 0;
+    place-items: center;
+    border-radius: 0;
+    width: 500px;
+    height: 300px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(36,18,95);
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background: rgb(158,124,12);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: rgb(36,18,95);
+    font-weight: 600;
+    transition: .3s ease;
+}
+.logo:hover{
+    color: white;
+    text-shadow: 0 0 25px white, 0 0 25px white;
+    transform: scale(1.1);
+}
+.navbar a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgb(36,18,95);
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.navbar a:hover,
+.navbar a.active{
+    transform: scale(1.1);
+    color: white;
+    text-shadow: 0 0 25px white, 0 0 25px white;
+    border-bottom: 3px solid white;
+}
+.aboutme{
+    background-color: rgb(36,18,95);
+    align-items: center;
+}
+.aboutme img{
+    border-radius: 80%;
+    width: 300px;
+    height: 400px;
+}
+.hobbies{
+    background-color: rgb(36,18,95);
+    align-items: center;
+}
+.hobbies p{
+    text-align: center;
+}
+.skills{
+    background-color: rgb(36,18,95);
+    align-items: center;
+}
+
+.skills p{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.achievements{
+    background-color: rgb(36,18,95);
+    align-items: center;
+}
+.achievements p{
+    text-align: center;
+}
+.education{
+    background-color: rgb(36,18,95);
+    align-items: center;
+}
+.education img{
+    border-radius: 25%;
+}
+.education p{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0;
+}
+
+.major{
+    background-color: rgb(36,18,95);
+    align-items: center;
+}
+
+.minor1{
+    background-color: rgb(36,18,95);
+    align-items: center;
+}
+.minor2{
+    background-color: rgb(36,18,95);
+    align-items: center;
+}
+
+.coursework{
+    background-color: rgb(36,18,95);
+    align-items: center;
+}
+
+.coursework p{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.coursera{
+    background-color: rgb(36,18,95);
+    align-items: center;
+}
+.urnextroute{
+    background-color: rgb(36,18,95);
+}
+.experience{
+    background-color: rgb(36,18,95);
+    align-items: center;
+}
+.experience h1{   
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+.experience h2{
+    font-size: 40px;
+}
+.experience a:hover{
+    color: rgb(158,124,12);
+    text-shadow: 0 0 25px rgb(158,124,12), 0 0 25px rgb(158,124,12);
+}
+.experience h3{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.experience img{
+    width: 500px;
+    height: 300px;
+}
+.urnextroute h1{
+    margin-top: 150px;
+    margin-bottom: -100px;
+    align-items: center;
+}
+
+.urnextroute img{
+    width: 300px;
+    height: 300px;
+    align-items: center;
+}
+.award img{
+    width: 500px;
+    height: 500px;
+}
+.urnextroute .website_repo{
+    align-items: right;
+    margin-left: 1000px;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: rgb(36,18,95);
+    color: rgb(158,124,12);
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.urnextroute .website_repo:hover{
+    background-color: white;
+    box-shadow: 0 0 25px white;
+    color: rgb(36,18,95);
+}
+.fake_news{
+    background-color: rgb(36,18,95);
+    align-items: center;
+}
+.dashboard{
+    background-color: rgb(36,18,95);
+    align-items: center;
+}
+.nfl_analysis{
+    background-color: rgb(36,18,95);
+    align-items: center;
+}
+.nfl_analysis img{
+    width: 400px;
+    height: 800px;
+}
+.fitness_journal{
+    background-color: rgb(36,18,95);
+    align-items: center;
+}
+.video_game{
+    background-color: rgb(36,18,95);
+    align-items: center;
+}
+.fitness_journal img{
+    width: 600px;
+    height: 400px;
+}
+.resume{
+    background-color: rgb(36,18,95);
+}
+.cover_letter{
+    background-color: rgb(36,18,95);
+}
+.repo{
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    background-color: rgb(36,18,95);
+    color: rgb(158,124,12);
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.repo:hover{
+    text-shadow: 0 0 25px white, 0 0 25px white;
+    background-color: white;
+    box-shadow: 0 0 25px white;
+    color: rgb(36,18,95);
+}
+.contact-section{
+    background-color: rgb(36,18,95);
+    padding: 0;
+    align-items: center;
+}
+.contact-section h2{
+    color: white;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+}
+.contact-section p{
+    text-align: center;
+}
+
+.contact-section .social-icons {
+    text-align: center; 
+    margin-top: 2em;
+}
+.contact-section .social-icons a{
+    font-size: 32px; 
+    color: white;
+    margin: 0 15px; 
+    display: inline-flex; 
+    transition: color 0.3s ease;
+}
+.contact-section .social-icons a:hover{
+    color: rgb(158,124,12);
+    text-shadow: inset 0 0 10px rgb(158,124,12), 0 0 10px rgb(158,124,12);
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 0, 0);
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(36,18,95);
+    width: 50px;
+}
